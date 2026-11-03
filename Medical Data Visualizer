@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # 1
-df = pd.read_csv(r'c:\\users\maseglo.com\Documents/Python training/medical_examination.csv')
+df = pd.read_csv('medical_examination.csv')
 df.index=df['id']
 df=df.drop(['id'], axis=1)
 
